@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Route 2, stop 1</title>
+    <meta name="description" content="Route 2, stop 1">
+    <script src="../Scripts/aframe-master.js"></script>
+    <script src="../Scripts/aframe-tooltip-component.js"></script>
+    <script src="../Scripts/camera-position.js"></script>
+    <script src="../Scripts/link-controls.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.2.0/dist/aframe-environment-component.min.js"></script>
+    <script src="Scripts/info-message.js"></script>
+</head>
+
+<body>
+
+    <a-scene raycaster="far: 100; objects: [link];"
+             cursor="rayOrigin: mouse"
+             camera-position
+             <a-assets>
+            </a-assets>
+        <a-sky src="../Images/Route2-Stop1.png" rotation="0 -90 0"></a-sky>
+        <a-box position="0 0 -2" color="blue"></a-box>
+        <a-link href="https://www.frnge.co.uk" position="0 1.5 -2.0" image="../Images/Logo.jpg" title="Something" titleColor="black"></a-link>
+        <a-box position="2 0 -2" color="red"></a-box>
+        <a-link href="https://www.instagram.com/lucy.fekete/" position="2 1.5 -2.0" image="../Images/Logo.jpg" title="Something" titleColor="black"></a-link>
+        <a-box position="-2 0 -2" color="green"></a-box>
+        <a-link href="https://www.etsy.com/uk/shop/CiaraRoddyDesigns?ref=search_shop_redirect" position="-2 1.5 -2.0" image="../Images/Logo.jpg" title="Something" titleColor="black"></a-link>
+        <a-box position="4 0 -2" color="yellow"></a-box>
+        <a-link href="https://www.instagram.com/elizabethannday/" position="0 1.5 -2.0" image="../Images/Logo.jpg" title="Something" titleColor="black"></a-link>
+    </a-scene>
+</body>
+</html>
